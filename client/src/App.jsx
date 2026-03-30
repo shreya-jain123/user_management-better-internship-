@@ -10,11 +10,11 @@ function App() {
   const [array, setArray] = useState([]);
   const [name, setName] = useState('');
 
-  // 1. Data fetch karne ka function
+  
   const fetchAPI = async () => {
     try {
       const response = await axios.get('http://127.0.0.1:5000/api/users');
-      // Backend se objects ki list fetch karna
+      
       setArray(response.data.users || response.data); 
     } catch (error) {
       console.error('Error fetching data:', error);
@@ -25,7 +25,7 @@ function App() {
     fetchAPI();
   }, []);
 
-  // 2. Naya user add karne ka function
+  
   const handleAddUser = async () => {
     if (!name) return alert('Please enter a name');
     try {
@@ -37,11 +37,11 @@ function App() {
     }
   };
 
-  // 3. User delete karne ka function (Fix: Ye connect hona zaroori tha)
+ 
   const handleDeleteUser = async (id) => {
     try {
       await axios.delete(`http://127.0.0.1:5000/api/users/${id}`);
-      fetchAPI(); // List refresh karein
+      fetchAPI(); 
     } catch (error) {
       console.error('Error deleting user:', error);
       alert("Failed to delete user. Make sure Backend has DELETE route.");
