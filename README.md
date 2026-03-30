@@ -1,28 +1,32 @@
-🌟✨ User Management Web App – Internship Assessment 🚀
+# 🌟 User Management Web App – Internship Assessment 🚀
 
-Managing users made **simple, interactive, and fun**!  
-This platform allows you to **add, view, and delete users** seamlessly with a modern React frontend and a lightweight Flask backend. 🖥️⚡
-
----
-
-🌈 Key Features
-✅ Add new users instantly  
-✅ View all users in a clean interface  
-✅ Delete users with a single click  
-✅ REST API powered by Flask  
-✅ Fully responsive React frontend  
-✅ AI-assisted development guidance  
+**Managing users made simple, interactive, and fun!**  
+Add, view, and delete users seamlessly with a **React frontend** and **Flask backend**. 🖥️⚡  
 
 ---
 
-💻 Tech Stack
-React | Flask | SQLite | Axios | Python | JavaScript | HTML | CSS  
+## 🌈 Key Features
+- ✅ **Add Users** – Quickly add new users  
+- ✅ **View Users** – See all users in a clean interface  
+- ✅ **Delete Users** – Remove users with one click  
+- ✅ **REST API** – Powered by Flask  
+- ✅ **Responsive Frontend** – Built with React  
+- ✅ **AI-Assisted Development** – Code guidance & debugging  
 
 ---
 
-⚡ How to Run
+## 💻 Tech Stack
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
 
-**Backend (Flask API)**  
+---
+
+## ⚡ How to Run
+
+### Backend (Flask API)
 ```bash
 cd server
 python main.py
